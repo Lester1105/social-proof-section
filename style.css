@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+:root{
+    --Ver-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.upper{
+    display: flex;
+    justify-content:space-between;
+    height: 50%;
+    width: 90%;
+}
+.intro{
+    color: var(--Ver-Dark-Magenta);
+    font-weight: 700;
+    width: 230px;
+    
+}
+.head{
+    margin: 10px;
+    align-items: center;
+}
+.head p{
+    color:var(--Dark-Grayish-Magenta);
+    width: 400px;
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 20px;   
+}
+.rate-container{
+    color: var(--Ver-Dark-Magenta);
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+.star{
+    background: url(images/icon-star.svg);
+    background-repeat: repeat-x;
+    width: 85px;
+    margin-right: 10px;
+    color: var(--White);
+}
+.rate-card{
+    display: flex;
+    background-color: var(--Light-Grayish-Magenta);
+    width: 350px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.report{
+   margin-left: 50px;
+}
+.bestech{
+    margin-left: 100px;
+}
