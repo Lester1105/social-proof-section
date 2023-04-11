@@ -133,4 +133,7 @@ img{
         flex-direction: column;
         flex-wrap: wrap;
     }
+    .anne{
+        margin-top: 5%;
+    }
 }
