@@ -36,7 +36,8 @@ body{
 .intro{
     color: var(--Ver-Dark-Magenta);
     font-weight: 700;
-    width: 230px;
+    width: 260px;
+    font-size: 20px;
     
 }
 .head{
@@ -76,4 +77,60 @@ body{
 }
 .bestech{
     margin-left: 100px;
+}
+.person-container{
+    display: flex;
+    align-items: center;
+}
+.person-card{
+    padding: 25px 20px;
+    margin: 10px;
+    background-color: var(--Ver-Dark-Magenta);
+    border-radius: 5px;
+    color: var(--Light-Grayish-Magenta);
+    font-weight: 400;
+    line-height: 20px;
+}
+.person-upper{
+    display: flex;
+    align-items: center;
+}
+.name-tag{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-weight: 700;
+    color: var(--White);
+}
+.buyer{
+    color: var(--Soft-Pink);
+}
+img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.colton{
+    margin-top: 0%;
+}
+.irene{
+    margin-top: 5%;
+}
+.anne{
+    margin-top: 10%;
+}
+@media screen and (max-width:375px) {
+
+    .rate-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .person-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .upper{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
